@@ -66,4 +66,4 @@ gf <- igraph.to.gexf(net, nodesVizAtt = list(
   position = cbind(ly, 0),
   color    = fifelse(V(net)$is_u, "tomato", "steelblue")
 ))
-plot(gf, nodeSizeFactor = .05, edgeWidthFactor = .125)
+plot(gf, nodeSizeFactor = .05, edgeWidthFactor = .125, dir = "docs")
